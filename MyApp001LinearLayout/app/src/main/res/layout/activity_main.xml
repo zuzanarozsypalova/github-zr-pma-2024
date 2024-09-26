@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:hint="Věk"
         android:inputType="number"
-        android:layout_weight="2"
+        android:layout_weight="4"
         android:layout_marginRight="10dp"
         />
 
@@ -67,20 +67,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="4"
-        android:text="Odeslat"
+        android:text="@string/btn_send"
         android:textSize="18dp"
         android:layout_marginRight="10dp"
-        android:backgroundTint="@color/myColor03"
+        android:backgroundTint="@color/myColor04"
         ></Button>
 
     <Button
         android:id="@+id/delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="5"
-        android:text="Vymazat"
+        android:layout_weight="4"
+        android:text="@string/btn_delete"
         android:textSize="18dp"
-        android:layout_marginRight="10dp"
         android:backgroundTint="@color/myColor03"
         ></Button>
 </LinearLayout>
@@ -89,10 +88,13 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:text="Informace"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginTop="20dp"
-        android:padding="10dp"
+
         android:textSize="20dp"
-        />
+        android:id="@+id/tvInformation"
+
+/>
 
 </LinearLayout>
+
+
+
